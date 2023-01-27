@@ -1,38 +1,129 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+body {
+  background-color: #302c42 !important;
+  height: 100vh;
+  width: auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+* {
+  font-family: "Montserrat", sans-serif;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.btn-navbar {
+  margin-left: 2px;
+}
+.btn-contact {
+  width: 154px;
+  font-weight: bold;
+  height: 45px;
+  border-radius: 40px;
+  background-color: #302c42;
+  border-color: white !important ;
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-join {
+  color: #343045;
+  font-weight: bold;
+  background: linear-gradient(160deg, #887eb6, #bbb2e3);
+  width: 155px;
+  height: 45px;
+  border: none;
+  border-radius: 40px;
+}
+
+/* HomePage Awal */
+.homepage .dive {
+  width: 456px;
+  height: 56px;
+  background: linear-gradient(160deg, #887eb6, #bbb2e3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.homepage .virtual {
+  width: 456px;
+  height: 56px;
+  background: linear-gradient(160deg, #887eb6, #d0c9ec);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.homepage h1 {
+  margin-top: 30px;
+  color: white;
+  width: 456px;
+  height: 56px;
+}
+
+.homepage p {
+  color: white;
+  width: 450px;
+  height: 72px;
+  margin-top: 80px;
+}
+
+.btn-build {
+  width: 214px;
+  font-size: 12px;
+  height: 48px;
+  border: none;
+  color: black;
+  border-radius: 40px;
+  background: linear-gradient(160deg, #887eb6, #bbb2e3) !important;
+  font-weight: bold;
+}
+
+.card {
+  border-radius: 40px;
+  width: 100%;
+  height: 267px;
+  background: linear-gradient(100deg, #54435e, #564c64, #2a1f30);
+}
+
+.bg img {
+  width: 490px;
+  height: 426px;
+}
+
+.btn-get {
+  border: none;
+  border-radius: 40px;
+  width: 214px;
+  height: 48px;
+  color: #2a1f30;
+  background: linear-gradient(160deg, #887eb6, #bbb2e3) !important;
+  font-weight: bold;
+}
+
+.card-why {
+  width: 310px;
+  height: 411px;
+  background-color: #d0c9ec;
+  border-radius: 40px;
+  background: linear-gradient(90deg, #2a1f30, #564c64, #2a1f30);
+  margin: 5px;
+}
+
+.card-why img {
+  width: 50%;
+}
+
+.btn-try {
+  border: none;
+  border-radius: 40px;
+  width: 154px;
+  height: 48px;
+  color: #2a1f30;
+  background: linear-gradient(160deg, #887eb6, #bbb2e3) !important;
+  font-weight: bold;
+}
+
+.shape {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
 }
